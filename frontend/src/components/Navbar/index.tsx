@@ -6,7 +6,7 @@ const Navbar = () => {
         <header>
         <nav className='container'>
           <div className='dsmovie-nav-content'>
-            <h1>DSMovie</h1>
+            <h1><a href="/">DSMovie</a></h1>
             <a href="https://github.com/">
               <div className="dsmovie-contact-container">
                 <GithubIcon />
