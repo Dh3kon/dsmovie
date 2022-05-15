@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/movies")
-@CrossOrigin(value =  {"http://localhost:3000"})
 public class MovieController {
 
     @Autowired
